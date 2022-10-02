@@ -29,14 +29,14 @@ h1 {
 }
 
 .container-orange {    
-  position: absolute;
+  position: relative;
   top: 0px; 
   left: 34px;
   width: 167px;
   height: 70px;
   border-radius: 7px 12px 10px 7px;
   border: 1px solid #fff;
-  background: #fff;
+  background: red;
   -webkit-transform: skew(135deg);
      -moz-transform: skew(135deg);
        -o-transform: skew(135deg);                  
