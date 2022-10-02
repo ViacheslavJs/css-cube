@@ -8,7 +8,7 @@ h1 {
 }
 
 /* TODO - cub normal */
-/*
+
 .container-red {    
   position: absolute;
   top: 67px;
@@ -29,7 +29,7 @@ h1 {
 }
 
 .container-orange {    
-  position: relative;
+  position: absolute;
   top: 0px; 
   left: 34px;
   width: 167px;
@@ -86,10 +86,10 @@ h1 {
     height: 231px;    
     margin: 100px auto;           
 }
-*/
+
 
 /* TODO - cub 3D */
-
+/*
 .container-red {    
   position: absolute;
   top: 67px;
@@ -169,7 +169,7 @@ h1 {
   margin: 100px auto;     
   transform: rotate(35deg); 
 }
-
+*/
 
 /* TODO - cub 3D */
 /*
