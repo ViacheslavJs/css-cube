@@ -111,7 +111,7 @@ h1 {
 }
 
 .container-orange {   
-  position: absolute;
+  position: relative;
   top: 0px; 
   left: 37px;
   width: 167px;
