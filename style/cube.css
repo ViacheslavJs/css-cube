@@ -164,7 +164,7 @@ h1 {
 }
 
 .container {
-  position: relative;  
+  /*position: relative;*/
   width: 238px; 
   height: 231px;    
   margin: 100px auto;     
