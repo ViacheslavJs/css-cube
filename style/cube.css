@@ -1,0 +1,272 @@
+
+body {  
+  background: #cfcfcf;
+}
+
+h1 {
+  color: blue;
+}
+
+/* TODO - cub normal */
+/*
+.container-red {    
+  position: absolute;
+  top: 67px;
+  width: 162px; 
+  height: 162px;
+  border-radius: 7px 7px 7px 7px;
+  border: 1px solid #fff; 
+  background: #fff;   
+}
+
+.square-red {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 2px 2px;
+  border-radius: 5px;
+  background: red;   
+}
+
+.container-orange {    
+  position: relative;
+  top: 0px; 
+  left: 34px;
+  width: 167px;
+  height: 70px;
+  border-radius: 7px 12px 10px 7px;
+  border: 1px solid #fff;
+  background: #fff;
+  -webkit-transform: skew(135deg);
+     -moz-transform: skew(135deg);
+       -o-transform: skew(135deg);                  
+}
+
+.square-orange {
+  float: left;  
+  width: 50px;
+  height: 20px;
+  margin: 1px 2px; 
+  border-radius: 5px;
+  background: orange;   
+    -webkit-transform: skew(0deg);
+       -moz-transform: skew(0deg);
+         -o-transform: skew(0deg);         
+}
+
+.container-green {    
+  position: absolute;
+  top: 32px; 
+  left: 163px;
+  width: 72px;
+  height: 163px;  
+  border-radius: 7px 11px 7px 9px;
+  border: 1px solid #fff;
+  background: #fff;
+  -webkit-transform: skew(0deg, -45deg);
+     -moz-transform: skew(0deg, -45deg);
+       -o-transform: skew(0deg, -45deg);              
+}
+
+.square-green {
+  float: left;
+  width: 22px;
+  height: 50px;
+  margin: 2px 1px;
+  border-radius: 5px; 
+  background: green;
+  -webkit-transform: skew(0deg, 0deg);
+     -moz-transform: skew(0deg, 0deg);
+       -o-transform: skew(0deg, 0deg);      
+}
+
+.container {
+    /*position: relative;
+    width: 238px; 
+    height: 231px;    
+    margin: 100px auto;           
+}
+*/
+
+
+/* TODO - cub 3D */
+
+.container-red {    
+  position: absolute;
+  top: 68px;
+  left: 1px;
+  width: 152px; 
+  height: 149px;      
+  border-radius: 5px 7px 6px 7px;
+  border: 1px solid #fff;
+  background: #fff;
+}
+
+.square-red {
+  float: left;
+  width: 46px;
+  height: 46px;
+  margin: 2px 2px;
+  border-radius: 5px;
+  background: red;   
+}
+
+.container-orange {   
+  position: relative;
+  top: 0px; 
+  left: 33px;
+  width: 158px;
+  height: 69px;
+  border-radius: 7px 14px 10px 7px;
+  border: 1px solid #fff;
+  background: #fff;
+  -webkit-transform: skew(135deg);
+     -moz-transform: skew(135deg);
+       -o-transform: skew(135deg);          
+}
+
+.square-orange {  
+  float: left;
+  width: 47px;
+  height: 20px;
+  margin: 1px 1px 1px 2px;
+  border-radius: 5px;
+  background: orange; 
+  -webkit-transform: skew(0deg);
+     -moz-transform: skew(0deg);
+       -o-transform: skew(0deg);           
+}
+
+.container-green {   
+  position: absolute;
+  top: 35px; 
+  left: 153px;
+  width: 66px;
+  height: 150px;
+  border-radius: 7px 6px 7px 6px;
+  border: 1px solid #fff;
+  background: #fff;
+  -webkit-transform: skew(0deg, -45deg);
+     -moz-transform: skew(0deg, -45deg);
+       -o-transform: skew(0deg, -45deg); 
+}
+
+.square-green {
+  float: left;
+  width: 20px;
+  height: 46px;
+  margin: 2px 1px;
+  border-radius: 5px;
+  background: green;
+  -webkit-transform: skew(0deg, 0deg);
+     -moz-transform: skew(0deg, 0deg);
+       -o-transform: skew(0deg, 0deg);          
+}
+
+.container {
+  position: relative; 
+  width: 222px; 
+  height: 219px;    
+  margin: 100px auto;     
+  transform: rotate(35deg); 
+  
+  /*border: 1px solid red;*/
+  
+}
+
+
+
+/* TODO - cub 3D */
+/*
+.container-red {    
+  position: absolute;
+  top: 67px;
+  left: 2px;
+  width: 163px; 
+  height: 125px;   
+  border-radius: 5px 7px 11px 7px;
+  border: 1px solid #fff; 
+  background: #fff;
+}
+ 
+.square-red {  
+  float: left;
+  width: 50px;
+  height: 40px;
+  margin: 1px 3px 1px 0px;
+  border-radius: 5px;
+  background: red;           
+}
+
+.container-orange {   
+  position: relative;
+  top: -57px; 
+  left: 64px;
+  width: 165px;
+  height: 124px;
+  border-radius: 6px 14px 10px 5px;
+  border: 1px solid #fff;
+  background: #fff;
+  -webkit-transform: skew(135deg);
+     -moz-transform: skew(135deg);
+       -o-transform: skew(135deg);        
+}
+
+.square-orange {
+  float: left;
+  width: 50px;
+  height: 39px;
+  margin: 1px 2px 1px 1px; 
+  border-radius: 5px; 
+  background: orange;    
+  -webkit-transform: skew(0deg);
+     -moz-transform: skew(0deg);
+       -o-transform: skew(0deg);         
+}
+
+.container-green {    
+  position: absolute;
+  top: 5px; 
+  left: 161px;
+  width: 126px;
+  height: 125px;
+  border-radius: 7px 9px 7px 11px;
+  border: 1px solid #fff;       
+  background: #fff; 
+  -webkit-transform: skew(0deg, -45deg);
+     -moz-transform: skew(0deg, -45deg);
+       -o-transform: skew(0deg, -45deg);        
+}
+
+.square-green {  
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 1px 1px;
+  border-radius: 5px 7px 5px 5px;
+  background: green; 
+  -webkit-transform: skew(0deg, 0deg);
+     -moz-transform: skew(0deg, 0deg);
+       -o-transform: skew(0deg, 0deg);         
+}
+
+.container { 
+  /*position: relative;
+  width: 238px; 
+  height: 231px;
+  margin: 100px auto;
+  padding: 200px auto; 
+       
+  transform: skewX(25deg); 
+          
+}
+*/
+
+/* 3D - https://www.w3schools.com/cssref/css3_pr_transform.asp - see demo examples */
+
+
+
+
+
+
+
