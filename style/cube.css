@@ -9,7 +9,7 @@ h1 {
 }
 
 /* TODO - cub normal */
-
+/*
 .container-red {    
   position: absolute;
   top: 67px;
@@ -87,7 +87,7 @@ h1 {
     height: 231px;    
     margin: 100px auto;           
 }
-
+*/
 
 
 /* TODO - cub 3D */
@@ -176,7 +176,7 @@ h1 {
 
 
 /* TODO - cub 3D */
-/*
+
 .container-red {    
   position: absolute;
   bottom: 0px;
@@ -259,7 +259,7 @@ h1 {
   transform: skewX(25deg); 
           
 }
-*/
+
 
 /* 3D - https://www.w3schools.com/cssref/css3_pr_transform.asp - see demo examples */
 
